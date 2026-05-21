@@ -612,4 +612,109 @@ The work evaluates:
 
 :contentReference[oaicite:4]{index=4}
 
+# Local Installation and Execution
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/Pranav080405/Deep-Neural-Network-Based-Speaker-Identification-Systems.git
+```
+
+---
+
+## Navigate to the Project Directory
+
+```bash
+cd Deep-Neural-Network-Based-Speaker-Identification-Systems
+```
+
+---
+
+## Create Virtual Environment (Recommended)
+
+### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### macOS / Linux
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+## Install Required Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Run the Application Locally
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Open in Browser
+
+After execution, Streamlit automatically launches the application in the browser.
+
+If it does not open automatically, use:
+
+```text
+http://localhost:8501
+```
+
+---
+
+# Features Available in Local Deployment
+
+The local application supports:
+
+- Speaker Identification
+- Speaker Verification
+- MFCC Feature Extraction
+- ECAPA-TDNN Embedding Extraction
+- Deep Neural Network Inference
+- Cosine Similarity Based Verification
+- Confidence Score Estimation
+- Real-Time Audio Upload and Processing
+
+---
+
+# Project Structure
+
+```text
+.
+├── app.py
+├── requirements.txt
+├── models/
+│   ├── speaker_dnn_mfcc_xfactor.h5
+│   └── label_encoder_mfcc_xfactor.npy
+├── utils/
+│   ├── audio_processing.py
+│   ├── feature_extraction.py
+│   └── model_utils.py
+├── assets/
+├── README.md
+└── train.py
+```
+
+---
+
+# Important Notes
+
+- The deployed version was tested primarily in a local environment using Streamlit.
+- Due to runtime compatibility issues between TensorFlow, SpeechBrain, and certain cloud deployment environments, the local deployment remains the most stable and reliable execution method for demonstration purposes.
+- The complete inference pipeline functions correctly in local execution.
+
 =======
