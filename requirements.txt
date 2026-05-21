@@ -1,5 +1,5 @@
 streamlit==1.35.0
-tensorflow==2.15.0
+tensorflow-cpu==2.16.1
 torch==2.2.2
 torchaudio==2.2.2
 speechbrain==0.5.16
