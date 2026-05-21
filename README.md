@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Hybrid Speaker Identification and Verification System
 
 A deep learning-based speaker recognition framework capable of performing both:
