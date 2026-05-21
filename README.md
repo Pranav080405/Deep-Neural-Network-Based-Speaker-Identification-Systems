@@ -290,6 +290,10 @@ This diversity improves robustness and generalization capability under real-worl
 | Streamlit | Web deployment |
 | Google Colab | Initial model training |
 
+<img width="1280" height="756" alt="telegram-cloud-photo-size-5-6084773876299666399-y" src="https://github.com/user-attachments/assets/11bfdc17-7695-4d9b-8103-caf37eba38f5" />
+
+<img width="1280" height="756" alt="telegram-cloud-photo-size-5-6084773876299666400-y" src="https://github.com/user-attachments/assets/c2328ba8-9587-4543-b6dc-003920f510ab" />
+
 ---
 
 # Feature Extraction
