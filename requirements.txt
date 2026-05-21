@@ -1,0 +1,13 @@
+tensorflow
+torch
+torchaudio
+speechbrain
+librosa
+numpy
+scikit-learn
+matplotlib
+streamlit
+tqdm
+pydub
+noisereduce
+soundfile
